@@ -1,3 +1,10 @@
-<form (submit)="onFormSubmit($event)">
-  <input (input)="term = $event.target.value"/>
-</form>
+<div class="box">
+  <form (submit)="onFormSubmit($event)">
+    <input
+      placeholder="e.g. Hong Kong"
+      class="input"
+      (input)="term = $event.target.value"
+    />
+  </form>
+</div>
+
